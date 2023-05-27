@@ -1,0 +1,211 @@
+
+
+/* --- FONTS --- */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+/* --- FONT LOGO --- */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+
+
+/* --- COLORS --- */
+:root{
+    --mainColor: #FFB45B;
+    --whiteColor: #ffffff;
+    --blackColor: #000000;
+    --grayColor: #3B3B3B;
+}
+
+
+/* --- ALL HTML --- */
+html{
+    font: 100%;
+}
+
+
+/* --- ALL H1 --- */
+h1{
+    font-family: 'Nova Round', cursive;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    padding: 2rem 0.5rem 1.5rem 1.5rem;
+    color: white;
+
+}
+
+
+/* --- ALL H2 --- */
+h2{
+    font-family: 'Nova Round', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+
+/* --- ALL H3 --- */
+h3{
+    font-family: 'Nova Round', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+
+
+/* --- ALL UNORDERED LISTS --- */
+ul{
+    list-style: none;
+}
+
+
+/* --- LOGO --- */
+.guitarIcon{
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: var(--blackColor);
+    margin: 1.4rem 0rem;
+}
+
+.logoFlex{
+    display: flex;
+    background-color: var(--blackColor);
+    border-style: solid;
+    border-color: var(--whiteColor);
+    border-width: 3px;
+}
+
+
+
+/* --- HEADER NAV --- */
+
+.navTop{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.7rem;
+    color: var(--mainColor);
+    background-color: var(--blackColor);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navTopUl{
+    display: flex;
+    flex-direction: row;
+}
+
+.navTopUl li{
+    padding: 0.5rem 1.5rem;
+}
+
+.coversGrayBlack{
+    background-color: var(--grayColor);
+    border-style: hidden solid hidden solid;
+    border-color: var(--whiteColor);
+    border-width: 3px;
+}
+
+.minMusikkGrayBlack{
+    border-style: hidden solid solid hidden;
+    border-color: var(--whiteColor);
+    border-width: 3px;
+}
+
+
+/* --- HEADER BUTTON --- */
+.profileButton{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.7rem;
+    padding: 0.5rem 1.5rem;
+    color: var(--mainColor);
+    background-color: var(--blackColor);
+    
+    border-style: hidden solid hidden solid;
+    border-width: 3px;
+    border-color: var(--whiteColor);
+}
+
+
+
+/* --- NAV SONGS --- */
+.navSongs{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5rem;
+
+
+    padding: 1rem 9.7rem 10rem 1.5rem ;
+    color: var(--whiteColor);
+    background: linear-gradient(#3B3B3B  10% , #232323 80%);
+
+    border-style: hidden solid;
+    border-width: 3px;
+    border-color: var(--whiteColor);
+}
+
+.navSongs ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+/* --- MAIN --- */
+
+main{
+    color: var(--whiteColor);
+    background: linear-gradient(#000000 6rem,#5a5a5a 24rem);
+}
+
+
+/* --- BIG FLEX BOXES --- */
+.bigFlexOne{
+    display: flex;
+    flex-direction: row;
+}
+
+.bigFlexTwo{
+    display: flex;
+    flex-direction: column;   
+}
+
+.bigFlexThree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-style: solid hidden hidden hidden;
+    border-width: 3px;
+    border-color: var(--whiteColor);
+    color: var(--whiteColor);
+}
+
+
+
+
+/* --- FORSKJELLIGE TING - SJEKK SENERE --- */
+.buttonsFlex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10rem;
+    padding: 5rem;
+}
+
+.songTitles{
+    padding: 2rem 2rem 2rem 3rem;
+}
+
+.songInfo{
+    font-family: 'Nova Round', cursive;
+    display: flex;
+    flex-flow: row wrap;
+    width: 24.2rem;
+    font-size: 1.3rem;
+    border: solid #ffffff;
+    margin: 2rem;
+}
+
+.songInfo li{
+    padding: 0.7rem 0rem 0rem 1rem;
+    min-width: 12rem;
+}
