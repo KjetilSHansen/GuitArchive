@@ -55,6 +55,7 @@ h4{
     font-size: 1.6rem;
     color: var(--whiteColor);
     padding: 3rem 0 1rem 0;
+    text-decoration: underline;
 }
 
 
@@ -129,7 +130,7 @@ ul{
     
     border-style: hidden solid hidden solid;
     border-width: 3px;
-    border-color: var(--whiteColor);
+    border-color: red;
 }
 
 
@@ -158,7 +159,12 @@ ul{
 /* --- MAIN --- */
 
 main{
-    background-image: url(../assets/backgroundGuitar.png);    
+    background-image: url(../assets/backgroundGuitar.png);
+
+    border-style: hidden solid hidden hidden;
+    border-width: 3px;
+    border-color: var(--whiteColor);
+   
     /* color: var(--whiteColor);
     background: linear-gradient(#000000 6rem,#5a5a5a 24rem); */  
 }
@@ -206,14 +212,18 @@ main{
     flex-flow: row wrap;
     width: 24.2rem;
     font-size: 1.3rem;
-    border: solid #ffffff;
+
     margin: 2rem 2rem 2rem 0rem;
+    background-color: var(--grayColor);
+    opacity: 30%;
+    border-radius: 0.8rem;
 }
 
 
 .songInfo li{
     padding: 0.7rem 0rem 0rem 1rem;
     min-width: 12rem;
+    color: var(--whiteColor);
 }
 
 
@@ -230,7 +240,7 @@ main{
     background-color: transparent;
     color: var(--mainColor);
     border-color: var(--mainColor);
-    border-radius: 1rem;
+    border-radius: 0.8rem;
     padding: 1rem 2rem;
     font-size: 1.5rem;
 }
@@ -258,12 +268,15 @@ footer ul{
 
 }
 
+
 footer ul li a{
     text-decoration: none;
     color: var(--whiteColor);
 }
 
+
 footer ul li :hover{
     color: var(--mainColor);
-
+    transition: 0.7s;
 }
+
