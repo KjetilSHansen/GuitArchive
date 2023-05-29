@@ -31,7 +31,6 @@ h1{
     letter-spacing: 0.1rem;
     padding: 2rem 0.5rem 1.5rem 1.5rem;
     color: white;
-
 }
 
 
@@ -48,6 +47,14 @@ h3{
     font-family: 'Nova Round', cursive;
     font-size: 2rem;
     letter-spacing: 0.1rem;
+}
+
+
+/* --- ALL H4 --- */
+h4{
+    font-size: 1.6rem;
+    color: var(--whiteColor);
+    padding: 3rem 0 1rem 0;
 }
 
 
@@ -132,8 +139,7 @@ ul{
     font-family: 'Abel', sans-serif;
     font-size: 1.5rem;
 
-
-    padding: 1rem 9.7rem 10rem 1.5rem ;
+    padding: 1rem 9.7rem 40rem 1.5rem ;
     color: var(--whiteColor);
     background: linear-gradient(#3B3B3B  10% , #232323 80%);
 
@@ -152,9 +158,14 @@ ul{
 /* --- MAIN --- */
 
 main{
-    color: var(--whiteColor);
-    background: linear-gradient(#000000 6rem,#5a5a5a 24rem);
+    background-image: url(../assets/backgroundGuitar.png);    
+    /* color: var(--whiteColor);
+    background: linear-gradient(#000000 6rem,#5a5a5a 24rem); */  
 }
+
+
+
+
 
 
 /* --- BIG FLEX BOXES --- */
@@ -183,16 +194,10 @@ main{
 
 
 /* --- FORSKJELLIGE TING - SJEKK SENERE --- */
-.buttonsFlex{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 10rem;
-    padding: 5rem;
-}
+
 
 .songTitles{
-    padding: 2rem 2rem 2rem 3rem;
+    padding: 2rem;
 }
 
 .songInfo{
@@ -202,10 +207,63 @@ main{
     width: 24.2rem;
     font-size: 1.3rem;
     border: solid #ffffff;
-    margin: 2rem;
+    margin: 2rem 2rem 2rem 0rem;
 }
+
 
 .songInfo li{
     padding: 0.7rem 0rem 0rem 1rem;
     min-width: 12rem;
+}
+
+
+.buttonsFlex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 7rem;
+    padding: 7rem;
+}
+
+
+.buttonsFlex button{
+    background-color: transparent;
+    color: var(--mainColor);
+    border-color: var(--mainColor);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+
+footer{
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blackColor);
+
+    border-style: solid;
+    border-color: var(--whiteColor);
+    border-width: 3px;
+}
+
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 1.2rem;
+    padding-bottom: 4rem;
+
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: var(--whiteColor);
+}
+
+footer ul li :hover{
+    color: var(--mainColor);
+
 }
