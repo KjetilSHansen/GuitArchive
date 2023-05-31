@@ -130,7 +130,7 @@ ul{
     
     border-style: hidden solid hidden solid;
     border-width: 3px;
-    border-color: red;
+    border-color: var(--whiteColor);
 }
 
 
@@ -140,9 +140,9 @@ ul{
     font-family: 'Abel', sans-serif;
     font-size: 1.5rem;
 
-    padding: 1rem 9.7rem 40rem 1.5rem ;
+    padding: 2.5rem 1.9rem 40rem 1.5rem ;
     color: var(--whiteColor);
-    background: linear-gradient(#3B3B3B  10% , #232323 80%);
+    background: linear-gradient(#3B3B3B  10% , #0b0b0b 80%);
 
     border-style: hidden solid;
     border-width: 3px;
@@ -153,6 +153,23 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+}
+
+.balanceLi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+    color: var(--mainColor);
+    
+}
+
+.triangelIcon{
+    height: 1rem;
+    align-items: center;
+    padding-left: 9rem;
+
 }
 
 
@@ -206,6 +223,7 @@ main{
     padding: 2rem;
 }
 
+
 .songInfo{
     font-family: 'Nova Round', cursive;
     display: flex;
@@ -214,18 +232,15 @@ main{
     font-size: 1.3rem;
 
     margin: 2rem 2rem 2rem 0rem;
-    background-color: var(--grayColor);
-    opacity: 30%;
+    border-style: solid;
+
     border-radius: 0.8rem;
 }
 
-
 .songInfo li{
-    padding: 0.7rem 0rem 0rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     min-width: 12rem;
-    color: var(--whiteColor);
 }
-
 
 .buttonsFlex{
     display: flex;
@@ -280,3 +295,125 @@ footer ul li :hover{
     transition: 0.7s;
 }
 
+
+
+/* --- --- --- MEDIA SCREEN UNDER 950PX --- --- --- */
+
+@media screen and (max-width: 950px){
+    
+    .bigFlexOne{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        border-style: none;        
+    }
+
+    .bigFlexTwo{
+        padding-right: 17rem;
+        border-style: solid hidden;
+        border-color: var(--whiteColor);
+        border-width: 3px;
+    }
+
+    .bigFlexThree{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;  
+        border-style: none;
+    }
+
+    .songTitles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .songInfo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 16rem;
+        margin: 2rem 0rem;
+    }
+
+    .songInfo li{
+        padding: 1.2rem 0rem;
+        min-width: 8rem;
+    }
+
+    .buttonsFlex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* --- --- --- MEDIA SCREEN UNDER 650PX --- --- --- */
+
+@media screen and (max-width: 650px){
+
+    h1{
+        font-size: 3rem;
+        padding: 1.5rem 0.2rem 1.5rem 0.5rem ;
+    }
+
+    .guitarIcon{
+        width: 2.5rem;
+        height: 2.5rem;
+
+        margin: 1.8rem 0rem;
+    }
+
+    .navTop{
+        font-size: 1.5rem;
+    }
+
+    .navSongs{
+        font-size: 1.3rem;
+    }
+        
+    .balanceLi{
+        color: var(--whiteColor);
+    }
+
+    .triangelIcon{
+        display: none;
+    }
+
+    .bigFlexOne{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profileButton{
+        border-style: hidden solid solid solid;
+        border-width: 3px;
+        border-color: var(--whiteColor);
+        font-size: 1.5rem;
+    }
+
+    .navSongs{
+        padding-bottom: 10rem;
+        border-style: hidden hidden hidden solid;
+    }
+
+    .bigFlexTwo{
+        display: none;
+    }
+
+    .navTop{    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navTopUl{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+}
