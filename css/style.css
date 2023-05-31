@@ -7,8 +7,6 @@
 /* --- FONT LOGO --- */
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 
-
-
 /* --- COLORS --- */
 :root{
     --mainColor: #FFB45B;
@@ -16,6 +14,14 @@
     --blackColor: #000000;
     --grayColor: #3B3B3B;
 }
+
+
+
+
+
+/* --- --- --- --- --- INDEX PAGE --- --- --- --- --- */
+
+
 
 
 /* --- ALL HTML --- */
@@ -181,9 +187,6 @@ main{
     border-style: hidden solid hidden hidden;
     border-width: 3px;
     border-color: var(--whiteColor);
-   
-    /* color: var(--whiteColor);
-    background: linear-gradient(#000000 6rem,#5a5a5a 24rem); */  
 }
 
 
@@ -297,6 +300,80 @@ footer ul li :hover{
 
 
 
+
+
+
+
+/* --- --- --- --- --- PROFILE PAGE --- --- --- --- --- */
+
+
+.profilSection{
+    display: flex;
+    justify-content: center;
+}
+
+.opprettProfilDiv{
+    color: var(--whiteColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: 40rem;
+    height: 35rem;
+    padding: 5rem 0rem;
+    margin: 5rem 0rem 15rem 0rem;
+    border-radius: 1rem;
+    border-style: solid;
+}
+
+.h2Profil{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+
+}
+
+
+form{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+form input{
+    height: 1.5rem;
+    width: 14rem;
+    border-radius: 0.2rem;
+
+}
+
+
+
+
+.opprattButton{
+    margin-top: 2rem;
+    background-color: var(--mainColor);
+    letter-spacing: 0.1rem;
+
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3rem;
+
+    border-color: var(--whiteColor);
+    border-radius: 0.5rem;
+    padding: 0.4rem 1rem;
+
+}
+
+
+
+
+
+
+
 /* --- --- --- MEDIA SCREEN UNDER 950PX --- --- --- */
 
 @media screen and (max-width: 950px){
@@ -348,6 +425,9 @@ footer ul li :hover{
         align-items: center;
     }
 }
+
+
+
 
 
 
@@ -416,4 +496,31 @@ footer ul li :hover{
         justify-content: space-evenly;
     }
 
+    footer ul{
+        display: flex;
+        flex-direction: column;
+
+        gap: 1rem;
+
+    
+    }
+
+
+    /* SIDE 3 - PROFIL*/
+
+    .h2Profil{
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    
+    }
+
+
+    .opprettProfilDiv{
+        width: 30rem;
+        height: 30rem;
+        padding: 2rem 0rem;
+        margin: 4rem 0rem 10rem 0rem;
+        border-radius: 1rem;
+        border-style: solid;
+    }
 }
