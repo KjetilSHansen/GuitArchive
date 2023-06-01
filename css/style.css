@@ -112,12 +112,28 @@ ul{
     padding: 0.5rem 1.5rem;
 }
 
+
+
+/* --- --- --- CARLO --- --- --- */
+
 .coversGrayBlack{
-    background-color: var(--grayColor);
+    /*background-color: var(--grayColor);*/
     border-style: hidden solid hidden solid;
     border-color: var(--whiteColor);
     border-width: 3px;
 }
+
+.bck-black {
+    background-color: var(--blackColor);
+}
+
+.bck-grey {
+    background-color: var(--grayColor);
+}
+
+
+
+
 
 .minMusikkGrayBlack{
     border-style: hidden solid solid hidden;
@@ -153,12 +169,16 @@ ul{
     border-style: hidden solid;
     border-width: 3px;
     border-color: var(--whiteColor);
+
+
 }
 
 .navSongs ul{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+
+   
 }
 
 .balanceLi{
@@ -238,6 +258,8 @@ main{
     border-style: solid;
 
     border-radius: 0.8rem;
+
+    backdrop-filter: blur(10px);
 }
 
 .songInfo li{
@@ -251,6 +273,8 @@ main{
     flex-direction: row;
     gap: 7rem;
     padding: 7rem;
+
+    
 }
 
 
@@ -261,6 +285,10 @@ main{
     border-radius: 0.8rem;
     padding: 1rem 2rem;
     font-size: 1.5rem;
+
+    backdrop-filter: blur(5px);
+
+    min-width: 200px;
 }
 
 
@@ -367,6 +395,14 @@ form input{
     padding: 0.4rem 1rem;
 
 }
+
+
+.minMusikkGrayBlack{
+
+}
+
+
+
 
 
 
