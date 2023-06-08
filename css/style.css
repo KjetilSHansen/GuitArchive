@@ -17,14 +17,10 @@
 /* --- --- --- --- --- COVERS AND MIN MUSIKK PAGES --- --- --- --- --- */
 
 
-
-/* --- ALL HTML --- */
 html{
     font: 100%;
 }
 
-
-/* --- ALL H1 --- */
 h1{
     font-family: 'Nova Round', cursive;
     font-size: 4rem;
@@ -33,24 +29,18 @@ h1{
     color: white;
 }
 
-
-/* --- ALL H2 --- */
 h2{
     font-family: 'Nova Round', cursive;
     font-size: 3rem;
     letter-spacing: 0.1rem;
 }
 
-
-/* --- ALL H3 --- */
 h3{
     font-family: 'Nova Round', cursive;
     font-size: 2rem;
     letter-spacing: 0.1rem;
 }
 
-
-/* --- ALL H4 --- */
 h4{
     font-size: 1.6rem;
     color: var(--whiteColor);
@@ -58,14 +48,10 @@ h4{
     text-decoration: underline;
 }
 
-
-/* --- ALL UNORDERED LISTS --- */
 ul{
     list-style: none;
 }
 
-
-/* --- LOGO --- */
 .guitarIcon{
     width: 4.5rem;
     height: 4.5rem;
@@ -81,8 +67,6 @@ ul{
     border-width: 3px;
 }
 
-
-/* --- HEADER NAV --- */
 .navTop{
     font-family: 'Abel', sans-serif;
     font-size: 1.7rem;
@@ -108,10 +92,6 @@ ul{
     border-color: var(--whiteColor);
 }
 
-
-
-/* --- --- --- Section --- --- --- */
-
 .coversLiA a{
     text-decoration: none;
     color: var(--mainColor);
@@ -125,7 +105,6 @@ ul{
 .covereGray{
     background-color: var(--grayColor);
     border-style: hidden solid hidden solid;
-
 }
 
 .covereBlack{
@@ -137,7 +116,6 @@ ul{
     background-color: var(--blackColor);
     border-style: none;
 }
-
 
 .minMusikkLiA a{
     text-decoration: none;
@@ -164,12 +142,6 @@ ul{
     border-style: hidden solid;
 }
 
-
-
-
-
-/* --- HEADER BUTTON --- */
-
 .profileButton a{
     font-family: 'Abel', sans-serif;
     font-size: 1.7rem;
@@ -185,8 +157,6 @@ ul{
     border-color: var(--whiteColor);
 }
 
-
-/* --- NAV SONGS --- */
 .navSongs{
     font-family: 'Abel', sans-serif;
     font-size: 1.5rem;
@@ -224,9 +194,6 @@ ul{
     padding-left: 10rem;
 }
 
-
-/* --- MAIN --- */
-
 main{
     background-image: url(../assets/backgroundGuitar.png);
     border-style: hidden solid hidden hidden;
@@ -234,8 +201,6 @@ main{
     border-color: var(--whiteColor);
 }
 
-
-/* --- BIG FLEX BOXES --- */
 .bigFlexOne{
     display: flex;
     flex-direction: row;
@@ -255,9 +220,6 @@ main{
     border-color: var(--whiteColor);
     color: var(--whiteColor);
 }
-
-
-/* --- FORSKJELLIGE TING - SJEKK SENERE --- */
 
 .songTitles{
     padding: 2rem;
