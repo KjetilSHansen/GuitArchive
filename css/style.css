@@ -234,7 +234,7 @@ main{
     margin: 2rem 2rem 2rem 0rem;
     border-style: solid;
     border-radius: 0.8rem;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(40px);
 }
 
 .songInfo li{
@@ -311,7 +311,7 @@ footer ul li :hover{
     margin: 5rem 0rem 15rem 0rem;
     border-radius: 1rem;
     border-style: solid;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
 }
 
 .h2Profil{
